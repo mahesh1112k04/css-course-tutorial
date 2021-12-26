@@ -1,0 +1,96 @@
+h2{
+	color:green ;
+}
+.title{
+	color: yellow;
+}
+#heading{
+	color: blue;
+}
+h2:hover{
+	color: orange;
+}
+ul:first-child{
+	color: steelblue;
+}
+li:second-child{
+	color: violet;
+}
+li:nth-child(3) {
+	color: gold;
+}
+li:only-chid {
+	color: crimson;
+}
+tr{
+	color: brown;
+}
+th:third-child {
+	color: purple;
+}
+td:first-chid {
+	color: silver;
+}
+td:only-child {
+	color: gey;
+}
+td:fourth-child {
+	color:lightblue;
+}
+a:link {
+	color: seagreen;
+}
+a:visited {
+	color: skyblue;
+}
+#whatsapp-web:link {
+	color: saddlebrown;
+}
+#whatsapp-web:visited {
+	color: greenyellow;
+}
+/*comments can be written like this or you cna write comment and simply press "ctrl /" or "/ and *"*/
+h2 + a {
+	color: darkseagreen;
+}
+textarea ~ button {
+	color: lightgoldenrodyellow;
+}
+ul > li {
+	color: blueviolet;
+}
+ul li {
+	color: darkgreen;
+}
+h2[class=subtitle] {
+	color: powderblue;
+}
+img[src^="../img/"] {
+	border: 10px solid black;
+}
+img[src$="../img/"] {
+	border: 10px solid black;
+} /*this wont work*/
+img[src*="../img/"] {
+	border: 10px solid black;
+} /*this will work*/
+h2[class~="article-subtitle"] {
+	background: green;
+}
+h2[class|="article-subtitle"] {
+	background: blue;
+}
+#title {
+	color: rgb(186, 133, 9);
+}
+/*we can also use hexcode but we use rgb code because we can see see and change the color proportion in the rgb code like if we want more blue we can increase blue number but it would be difficult with hex code*/
+.subtitle {
+	color: rgb(200, 148, 30);
+}
+body {
+	background: rgb(204, 229, 255);
+}
+.subtitle {
+	backgroung: rgb(204, 229, 255);
+}
+
